@@ -75,6 +75,10 @@
       width: 100%;
     }
   }
+  &--fixed > .brz-section__menu-item,
+  &-sticky-item {
+    position: relative;
+  }
 }
 
 // After uses for boxShadow
